@@ -1,0 +1,313 @@
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*-----Sección Titulo-----*/
+
+section.titulo {
+    width: 100%;
+    color: black;
+    background-color: #c1dafc;
+    
+}
+.titulo__seccion{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+section.titulo div.titulo__container {
+    /*background-color: rgb(26, 137, 241);*/
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+section.titulo div.titulo__container h1 {
+    padding: 10px;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 60px;
+}
+section.titulo div.titulo__container h3 {
+    font-size: 30px;
+    margin: 0;
+}
+section.titulo div.titulo__container p {
+    font-size: 17px;
+   
+}
+
+/*----Sección Descripcion Personal-----*/
+
+section.descripcion {
+    padding: 55px 153px;
+    background-color: #ffffff;
+    
+}
+section.descripcion div.descripcion__container {
+    width: 800px;
+    margin: 30px 0px;
+    
+}
+section.descripcion h2 {
+    font-size: 32px;
+    color: #0e0af5;
+}
+section.descripcion div.descripcion__container p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+/*-----seccion de estudios--*/
+
+section.educacion{
+    padding: 82px 0;
+    background-color: #EAF2FD;    
+}
+section.educacion div.educacion__container {
+    display: flex;
+    justify-content: center;   
+}
+section.educacion div.educcacion__container__carreras {
+    width: 20.5rem;
+    margin: 0 1rem;
+}
+section.educacion div.educacion__carreras__lista ul li {
+    padding: 0;
+}
+div.educcacion__container__carreras ul.educacion__carreras__lista li.educacion__carreras__lista__img {
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+div.educcacion__container__carreras ul.educacion__carreras__lista li img:nth-child(1) {
+    width: 140px;
+    height: 120px;
+    margin: 16px;
+}
+div.educcacion__container__carreras ul.educacion__carreras__lista li.educacion__carreras__lista__title {
+   
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    padding-top: 8px;
+    color: #464646;
+}
+div.educcacion__container__carreras ul.educacion__carreras__lista li.educacion__carreras__lista__subtitle {
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;;
+    color: #464646;
+}
+/*----seccion de experiencia---*/
+
+section.experiencia {
+    padding: 64px 0; 
+    background: #FFFFFF;
+}
+div.experiencia__caja img.experiencia__img{
+    width: 752px;
+    height: 406px;
+    border-radius: 0px;
+}
+section.experiencia div.experiencia__caja {
+    display: flex;
+    margin: 0 152px;
+    justify-content: center;
+    padding-bottom: 64px;
+   
+    
+}
+section.experience div.experiences__box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding-bottom: 64px;
+}
+section.experiencia div.experiencia__caja div.experiencia__info h2.experiencia__titulo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 147px 10px 16px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;  
+  
+}
+section.experiencia div.experiencia__info h3.experiencia__descripcion {
+    padding-left: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+section.experiencia div.experiencia__info div.experiencia__enlace button.experiencia__boton {
+    background: #FFFFFF;
+    color: #2A7AE4;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px;
+    line-height: 19px;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border: 1px solid #2A7AE4;
+    cursor: pointer;
+}
+section.experiencia div.experiencia__info div.experiencia__enlace button.experiencia__boton:hover {
+    background: #2A7AE4;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+/*----seccion de skills---*/
+
+section.skills {
+    margin: 64px 100px;
+} 
+section.skills div.skills__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+section.skills div.skills__caja {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    background-color: #ffffff;
+    margin: 22px 15px 22px 0px;
+    width: 136px;
+    height: 130px;
+}
+section.skills div.skills__caja ul {
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    padding: 10px;  
+}
+section.skills div.skills__caja li.skills__img{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;      
+} 
+
+/*-----seccion de foto---*/
+
+section.fotos{
+  background: #FFFFFF;
+}
+section.fotos div.foto__perfil{
+   display: flex;
+   justify-content: center;
+}
+section.fotos div.foto__perfil img.foto__img{
+    width: 400px;
+}
+
+/*----Sección Hobbies---*/
+
+section.hobbies {
+    margin: 64px 100px;
+}
+section.hobbies div.skills__hobbies { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+section.hobbies div.hobbies__caja { 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    background-color: #ffffff;
+    margin: 22px 15px 22px 0px;
+    width: 136px;
+    height: 130px;
+}
+section.hobbies div.hobbies__caja ul{ 
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    padding: 10px; 
+}
+section.hobbies div.hobbies__caja li.hobbies__img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+/*----seccion de expectativas---*/
+section.expectativas{
+    background-color: #F5F5F5;
+}
+section.expectativas div.expectativas__caja{
+    display: flex;
+    justify-content: center;
+}
+section.expectativas div.expectativas__info {
+    width: 900px;
+    margin: 20px 0px;
+}
+section.expectativas div.expectativas__info p {
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    
+}
+/* seccion de Footer*/
+section.footer {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 10px;
+}
+section.footer div.footer__rodape {
+    font-family: 'Raleway';
+    color: #464646;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}

@@ -1,0 +1,51 @@
+body{
+    background-image: url(https://img.lovepik.com/photo/40148/5442.jpg_wh860.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(163, 19, 247); 
+    
+}
+h1 {
+    color: rgb(16, 141, 83);
+    text-align: center;
+}
+ul li{
+    padding: 0px;
+    list-style:none
+}
+img {
+    width: 400px;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    
+}
+.divClass{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+
+}
+#thirdDiv{
+    display: flex;
+    justify-content: center;   
+    height: 600px;
+    width: 500px;
+    background: rgb(180, 180, 238);
+    padding: 50px;
+    border: 15px;
+    border-style: inherit;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px auto;
+    
+}
